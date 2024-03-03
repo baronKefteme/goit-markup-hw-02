@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #434455
-    background-color: #FFFFFF
+    color: #434455;
+    background-color:#FFFFFF;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -20,10 +20,6 @@ body{
     text-transform: uppercase;
     color: #2e2f42;
 }
-.links{
-    width: 261px;
-    height: 24px;
-}
 .link{
     font-weight: 500;
     font-size: 16px;
@@ -32,7 +28,7 @@ body{
     color: #2e2f42;
 }
 .link:hover,.link:focus{
-    color:#404bbf
+    color:#404bbf;
 }
 .mail-tel{
     font-weight: 400;
@@ -46,8 +42,6 @@ body{
 }
 .main-background{
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 .main-title{
     font-weight: 700;
@@ -59,19 +53,16 @@ body{
 }
 .order-button{
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    width: 169px;
-    height: 56px;
-    font-family: "Roboto", sans-serif
-    font-weight: 500
-    font-size: 16px
-    line-height: 1.5
-    letter-spacing: 0.04em
-    color: #ffffff
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 .order-botton:hover, .order-botton:focus{
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 .subtitle{
     font-weight: 500;
@@ -87,15 +78,12 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 .ourteam{
-    width: 1440px;
     background: #f4f4fd;
 }
 footer{
-    width: 1440px;
-    height: 312px;
     background: #2e2f42;
 }
 .enddescr{
@@ -107,28 +95,31 @@ footer{
 }
 .align{
     text-align: center;
-    line-height: 1.5
-    letter-spacing: 0.02em
-    color:#434455
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 .inform{
-    line-height: 1.5
-    letter-spacing: 0.02em
-    color:#434455
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 .list{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .oursubtitle{
-    font-weight: 500
-    font-size: 20px
-    line-height: 1.2
-    letter-spacing: 0.02em
-    color:#2e2f42
+    font-weight: 500;
+    font-size: 20;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 .paragraph{
-    font-size: 16px
-    line-height: 1.5
-    letter-spacing: 0.02em
-    color:#434455
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.addressa{
+    font-style: normal;
 }
