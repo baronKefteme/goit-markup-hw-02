@@ -61,10 +61,10 @@ body{
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.order-botton:hover{
-    background-color:#404BBF;
+.order-button:hover{
+    background-color: #404BBF;
 }
-.order-botton:focus{
+.order-button:focus{
     background-color: #404BBF;
 }
 .subtitle{
