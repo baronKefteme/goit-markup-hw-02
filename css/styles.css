@@ -53,7 +53,7 @@ body{
 }
 .order-button{
     cursor: pointer;
-    background: #4d5ae5;
+    background-color:#4d5ae5;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -61,7 +61,10 @@ body{
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.order-botton:hover, .order-botton:focus{
+.order-botton:hover{
+    background-color:#404BBF;
+}
+.order-botton:focus{
     background-color: #404BBF;
 }
 .subtitle{
@@ -72,7 +75,7 @@ body{
     color: #2e2f42;
 }
 .title{
-    font-weight: 700;
+    font-weight: 700;   
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -93,12 +96,6 @@ footer{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.align{
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
 .inform{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -109,7 +106,7 @@ footer{
 }
 .oursubtitle{
     font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
@@ -122,4 +119,28 @@ footer{
 }
 .addressa{
     font-style: normal;
+}
+.teamsubtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.teamjob{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.logostudiofooter{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
